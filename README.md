@@ -105,7 +105,7 @@ The insights were compiled and visually presented using **Microsoft PowerPoint**
 
 ## 🌐 Connect
 **Author:** Yuvraj Gupta  
-**LinkedIn:** https://www.linkedin.com/in/yuvraj-gupta-73b52921b/ 
+**LinkedIn:** https://www.linkedin.com/in/yuvraj-gupta-73b52921b/  
 **Email:** yuvrajgupta2021@gmail.com  
 
 ---
