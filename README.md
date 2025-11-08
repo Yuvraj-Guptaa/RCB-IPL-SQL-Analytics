@@ -1,7 +1,4 @@
-# RCB-IPL-SQL-Analytics
-Data-driven analysis of IPL matches using SQL to uncover strategic insights for Royal Challengers Bangalore (RCB). Focuses on player performance, team balance, and auction strategy optimization.
-
-# 🏏 RCB - IPL SQL Analytics
+# 🏏 RCB - IPL SQL Analytics | Data-Driven Strategy Project
 
 **Author:** Yuvraj Gupta  
 **Project Title:** Data-Driven Strategy Analysis for RCB (Royal Challengers Bangalore)  
@@ -14,41 +11,12 @@ Data-driven analysis of IPL matches using SQL to uncover strategic insights for 
 This project analyzes Indian Premier League (IPL) data using **Structured Query Language (SQL)** to uncover **strategic insights** for **Royal Challengers Bangalore (RCB)**.  
 The analysis focuses on player performance, venue statistics, batting/bowling consistency, and team balance — aiming to assist in **data-backed decision-making** for team strategy formulation.
 
-The project also includes a PowerPoint presentation and supporting documentation showcasing the **findings, visualizations, and recommendations**.
-
----
-
-## 🗂 Repository Structure
-RCB-IPL-SQL-Analytics/
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── sql/
-│ ├── objective.sql # Core SQL queries for analysis
-│ ├── schema/ # Database schema (if applicable)
-│ └── queries.sql # Additional supporting queries
-│
-├── data/
-│ └── sample_data.csv # Example dataset (optional small sample)
-│
-├── presentation/
-│ └── Cricket Analytics using SQL (1).pptx # Main presentation
-│
-├── docs/
-│ ├── Tasks-IPL.docx # Task list and details
-│ └── Cricket_Analytics_using_SQL.pdf # PDF export of presentation
-│
-└── assets/
-└── images/ # Graphs or charts for README (optional)
-
-yaml
-Copy code
+The project also includes a **PowerPoint presentation** and supporting documentation that showcase the **findings, visualizations, and strategic recommendations**.
 
 ---
 
 ## ⚙️ Project Objective
-To utilize **SQL-based data analysis** for understanding the **strategic challenges and strengths** of RCB in the IPL and to recommend performance-enhancing measures based on insights derived from historical match data.
+To utilize **SQL-based data analysis** for understanding RCB’s **strategic challenges, player performance trends, and strengths**, and to propose **data-backed improvements** for upcoming IPL seasons.
 
 ---
 
@@ -57,7 +25,7 @@ To utilize **SQL-based data analysis** for understanding the **strategic challen
 2. Understand batting and bowling performance across venues.  
 3. Evaluate strike rates, averages, and partnerships to suggest improvements.  
 4. Identify recruitment focus areas (e.g., fast bowlers, all-rounders).  
-5. Present insights in an easy-to-understand format for decision-makers.
+5. Present insights in a clear, visual, and decision-oriented format for stakeholders and analysts.
 
 ---
 
@@ -66,81 +34,79 @@ To utilize **SQL-based data analysis** for understanding the **strategic challen
 |-----------|-------------|
 | Database | MySQL / SQL Workbench (.mwb) |
 | Query Language | SQL |
-| Visualization | PowerPoint (Charts, Graphs) |
+| Visualization | Power BI, Microsoft PowerPoint |
 | Documentation | MS Word (.docx) |
 | Version Control | Git & GitHub |
 
 ---
 
 ## 🧠 Key Insights
-- RCB shows strong **batting dominance** but struggles with **bowling economy and consistency**.  
-- Home ground (M. Chinnaswamy Stadium) heavily favors batsmen; bowling strategy must adapt accordingly.  
-- Player strike rates and wicket-taking trends reveal the need for **more balanced team compositions**.  
-- All-rounders significantly improve team adaptability in dynamic match conditions.  
+- RCB shows strong **batting dominance** but faces challenges in **bowling economy and consistency**.  
+- The home ground (M. Chinnaswamy Stadium) heavily favors batsmen, requiring adaptive bowling strategies.  
+- Player strike rates and wicket-taking trends reveal the need for **balanced team compositions**.  
+- All-rounders significantly enhance team adaptability in dynamic match conditions.  
 
 ---
 
 ## 🧾 How to Run the SQL Scripts
 1. Install and open **MySQL Workbench** or any compatible SQL environment.  
-2. Import the provided `.mwb` schema (if applicable).  
+2. Import the provided `.mwb` schema file to view the database structure and relationships.  
 3. Run `objective.sql` inside the `sql/` directory.  
 4. Explore the query outputs to interpret player and team insights.  
 
-> 💡 Tip: You can modify `SELECT` queries to test different conditions, filters, or aggregates (e.g., per season or per venue).
+> 💡 *Tip:* You can modify `SELECT` queries to test different conditions, filters, or aggregates (e.g., per season or per venue).
 
 ---
 
 ## 🗣️ Project Summary
-The project highlights how **data analytics using SQL** can improve decision-making in cricket management.  
-By understanding historical data, RCB can optimize player selection, strategize auctions, and balance their lineup for upcoming seasons.
+This project demonstrates how **data analytics using SQL** can improve decision-making in cricket management.  
+By analyzing historical IPL data, RCB can optimize player selection, refine auction strategies, and balance their lineup for future seasons.
+
+The insights were compiled and visually presented using **Microsoft PowerPoint**, ensuring the results are easy to interpret and communicate to both technical and non-technical audiences.
 
 ---
 
 ## 📊 Sample Insights Visualized
-*(Refer to the presentation for visuals.)*
+*(Refer to the PowerPoint presentation for visuals.)*
 - Top Batsmen by Strike Rate  
-- Economy Rate Comparison between Seasons  
+- Economy Rate Comparison Between Seasons  
 - Venue-based Performance Distribution  
 - Player Consistency Index  
+- Player Role Contribution (Batsmen, Bowlers, All-Rounders)  
 
 ---
 
 ## 📄 Documents Included
 | File | Description |
 |------|--------------|
-| `Cricket Analytics using SQL (1).pptx` | Main project presentation |
-| `Tasks-IPL.docx` | Contains project tasks & objectives |
+| `Cricket_Analytics_using_SQL.pptx` | Main PowerPoint presentation |
+| `Tasks-IPL.docx` | Contains project tasks and objectives |
 | `Objective.sql` | SQL file with all core queries |
-| `Cricket_Analytics_using_SQL.pdf` | Exported summary for easy review |
+| `Cricket_Analytics_using_SQL.pdf` | Exported presentation in PDF format |
 
 ---
 
 ## 📘 Future Scope
-- Integrate **Python (Pandas + SQLAlchemy)** for automation.  
-- Add **data visualizations using Power BI / Tableau**.  
-- Extend analysis to **other IPL teams** for comparative insights.  
-- Host database and dashboard on cloud (AWS RDS + Streamlit).
+1. Integrate **Python (Pandas + SQLAlchemy)** for automation.  
+2. Visualize key KPIs using **Power BI / Tableau** dashboards.  
+3. Extend analysis to **other IPL teams** for comparative performance benchmarking.  
+4. Deploy the dashboard and database on **AWS RDS + Streamlit** for real-time analytics.  
+5. Automate PowerPoint report generation from query results for professional presentations.
 
 ---
 
 ## 🤝 Acknowledgments
-- Mentors and reviewers for guidance.  
+- Mentors and reviewers for their valuable guidance.  
 - IPL dataset sources (publicly available match data).  
-- Tools: MySQL, MS PowerPoint, GitHub.
-
----
-
-## ⚖️ License
-This project is released under the **MIT License**.  
-You are free to use, modify, and distribute it with proper attribution.
+- Tools: MySQL, Power BI, Microsoft PowerPoint, MS Word, GitHub.  
+- Inspiration from sports analytics studies and open data initiatives.
 
 ---
 
 ## 🌐 Connect
 **Author:** Yuvraj Gupta  
-**GitHub:** [github.com/YuvrajGupta](https://github.com/)  
-**LinkedIn:** [linkedin.com/in/yuvrajgupta](https://linkedin.com) *(optional)*  
-**Email:** (add your preferred email if you want)
+**LinkedIn:** [linkedin.com/in/yuvrajgupta](https://linkedin.com/in/yuvrajgupta)  
+**Email:** yuvrajgupta2021@gmail.com  
 
 ---
 
